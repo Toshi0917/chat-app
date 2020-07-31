@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+}
+
+.left-section {
+  width: 300px;
+  height: 100vh;
+}
+
+.left-header {
+  background-color: #253141;
+  width: 100%;
+  height: 100px;
+  padding: 0 20px;
+}
+
+.group-list {
+  background-color: #2f3e51;
+  width: 100%;
+  height: calc( 100% - 100px );
+  padding: 0 20px;
+}
+
+.main-section {
+  width: calc(100vw - 300px);
+}
+
+.main-header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100px;
+  padding: 0 40px;
+}
+
+.main-chat {
+  background-color: #fafafa;
+  width: 100%;
+  height: calc( 100% - 190px);
+  padding: 46px 40px 0 40px;
+}
+
+.main-footer {
+  background-color: #dddddd;
+  width: 100%;
+  height: 90px;
+  padding: 20px 40px;
+}
